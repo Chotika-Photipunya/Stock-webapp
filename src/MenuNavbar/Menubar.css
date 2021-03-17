@@ -5,12 +5,14 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu-bars{
+.menu-bars, .icon-noti{
     margin-left: 2 rem;
     font-size: 2rem;
     background: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-menu{
@@ -53,6 +55,7 @@
 
 .nav-text a:hover {
     background-color: #95806E;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-menu-items {
@@ -72,7 +75,51 @@ span{
     margin-left: 16px;
 }
 
-.text-login{
+.text-login, nav{
     color: #fff;
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
 }
+
+.name-logo{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+    
+}
+.pic-logo{
+    margin-left: 50px;
+    
+}
+
+.bnt-rigth{
+    margin-left: 1025px;
+    padding: 0%;
+    border: 0;
+}
+
+.text-login{
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.icon-hamberger{
+    margin-left: 30px;
+}
+
+.name-logo{
+    margin-left: 15px;
+}
+
+/* .text-login{
+    margin-left: 500px;
+}
+.icon-noti{
+    margin-left: 200px;
+} */
+
+/* .icon-group-right{
+    justify-content: flex-end;
+} */

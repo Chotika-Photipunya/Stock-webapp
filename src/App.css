@@ -9,7 +9,6 @@
 
 .Home,
 .Main,
-.Reports,
 .Products{
     display: flex;
     height: 90vh;

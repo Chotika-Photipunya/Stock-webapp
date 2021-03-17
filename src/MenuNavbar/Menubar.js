@@ -8,51 +8,55 @@ import { IconContext } from 'react-icons';
 import Image from 'react-bootstrap/Image';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-
+import * as IoIcons from 'react-icons/io';
+import Row from 'react-bootstrap/esm/Row';
+import Col from 'react-bootstrap/esm/Col';
 
 function Menubar() {
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
 
     const stylelogo = { width: 40, height: 40 }
-    const stylenoti = { width: 35, height: 35 }
-    const stylelayout = { margintop: 90 }
 
     return (
         <>
-            <IconContext.Provider value={{ color: '#fff' }}>
+            <IconContext.Provider className='hamberger' value={{ color: '#fff' }}>
                 <div className='Menubar'>
                     <Link to='#' className='menu-bars'>
                         <FaIcons.FaBars onClick={showSidebar} />
                     </Link>
 
+                    
 
-
-                    <div className='logo' >
+                    <Navbar.Brand href="#home">
+                  
+                        <div className='name-logo'>
                         <Image style={stylelogo} src="Logo.png" />
-                    </div>
-                    <div className='nameLogo'>
-                        <Navbar.Brand style={stylelayout} href="#home">Smart Manage</Navbar.Brand>
-                    </div>
-                    
-                        <Nav>
-                            <div className='picnoti'>
-                                <Image style={stylenoti} src="notification.png" />
-                            </div>
-                            <div className='TextNoti'>
-                                <Nav.Link href="#deets">Notification</Nav.Link>
-                            </div>
-                            <Nav.Link eventKey={2} href="#memes">
-                                <div className='text-login'>
-                                  <h4>  Log in</h4>
+                            Smart Manage
+                        </div>
+                    </Navbar.Brand>
+             
+
+                    <Nav className='bnt-rigth'>
+
+                        <Row>
+                            <Nav.Link href="#notification">
+                                <Col>
+                                <div className='icon-noti'>
+                                    <IoIcons.IoMdNotifications value={{ color: '#fff' }} />
                                 </div>
+                                </Col>
                             </Nav.Link>
-                        </Nav>
-                    
 
-
-
-
+                            <Nav.Link eventKey={2} href="#Login">
+                                <Col>
+                                <div className='text-login'>
+                                    Log in
+                                </div>
+                                </Col>
+                            </Nav.Link>
+                        </Row>
+                    </Nav>
 
                 </div>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
@@ -75,6 +79,7 @@ function Menubar() {
                     </ul>
 
                 </nav>
+
             </IconContext.Provider>
         </>
     );

@@ -1,0 +1,39 @@
+.text-page-order, .bnt-back, .bnt-search{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #95806E;
+    font-weight: bolder;
+    display: flex;
+    margin-top: 15px;
+
+}
+/* .text-page-order{
+    justify-content: center;
+    text-align: center;
+} */
+
+.button-back{
+  /*   justify-content: flex-start;
+    margin-right: 30px; */
+    color: #FFF;
+    background-color: #95806E;
+    border-color:#746354;
+    border-width: 0.5px
+}
+
+.bnt-search{
+   /*  justify-content: flex-end; */
+   margin-left: -30px;
+
+}
+
+.button-back:hover,.button-back:focus,.button-back.focus{
+    color:#fff;/*สีตัวหนังสือในปุ่ม*/
+    background:#c5ab95;/*พื้นหลังปุ่ม*/
+    border-color:#746354;/*เส้นขอบปุ่ม*/
+    border-width: 0.5px;/*ขนาดของเส้นขอบปุ่ม*/
+}
+
+hr{
+    border-color: #746354;
+    height: 1px;
+}

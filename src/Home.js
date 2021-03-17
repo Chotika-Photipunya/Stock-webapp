@@ -7,12 +7,14 @@ import './Home.css';
 export default function Home() {
 
     return (
+        
         <div className="Home">
-            
+           {/*  <Topbar />
             <Row>
                 <Col className="contain2">1 of 2</Col>
                 <Col className="contain3">2 of 2</Col>
-            </Row>
+            </Row> */}
+
         </div>
     );
 }

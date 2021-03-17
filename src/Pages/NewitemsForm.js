@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import './NewitemsForm.css';
+import Figure from "react-bootstrap/Figure";
 
 function NewitemsForm() {
     return (
@@ -16,7 +17,17 @@ function NewitemsForm() {
             <Row className='text-form'>
                 <Col className='col-md-6'>
                     <div className='text-showpic' >
-                        <h4>พื้นที่แสดงรูปที่อัพ</h4>
+                        <Figure>
+                            <Figure.Image
+                                width={171}
+                                height={180}
+                                alt="171x180"
+                                src="holder.js/171x180"
+                            />
+                            <Figure.Caption>
+                                Upload your picture.
+  </Figure.Caption>
+                        </Figure>
                     </div>
 
                     <div className="input-group">
@@ -56,7 +67,7 @@ function NewitemsForm() {
                                 รายละเอียด:
                             </Form.Label>
                             <Col sm={9}>
-                                <Form.Control type="text" placeholder="กรอกรายละเอียดของสินค้า" />
+                            <Form.Control as="textarea" rows={3} placeholder="กรอกรายละเอียดของสินค้า" />
                             </Col>
                         </Form.Group>
 
@@ -71,7 +82,7 @@ function NewitemsForm() {
                         </Form.Group>
                         {/* ดรอปดาว */}
                         <Form.Group as={Row} controlId="size-product">
-                        <Form.Label column sm={3}>
+                            <Form.Label column sm={3}>
                                 ไซส์รองเท้า:
                             </Form.Label>
                             <Col xs="auto" className="my-1">
@@ -90,7 +101,7 @@ function NewitemsForm() {
                                     <option value="3">37-40</option>
                                 </Form.Control>
                             </Col>
-                            </Form.Group>
+                        </Form.Group>
 
                         <Form.Group as={Row} controlId="amount-product">
                             <Form.Label column sm={3}>

@@ -8,7 +8,7 @@ import './Home.css';
 import './App.css';
 import Main from './Pages/Main';
 import Products from './Pages/Products';
-import Reports from './Pages/Reports';
+import CreateOrder from './Pages/CreateOrder';
 import NewitemsForm from './Pages/NewitemsForm';
 
 function App() {
@@ -19,8 +19,9 @@ function App() {
       <Switch>
         <Route path='/' exact component={Main} />
         <Route path='/Products' component={Products} />
-        <Route path='/Reports' component={Reports} />
+        <Route path='/CreateOrder' component={CreateOrder} />
         <Route path='/NewitemsForm' component={NewitemsForm} />
+        <Route path='/Login' component={Login} />
 
       </Switch>
     </Router>

@@ -12,7 +12,7 @@ export const SidebarData = [
     },
     {
         title: 'สร้างใบสั่งซื้อสินค้า',
-        path: '/Reports',
+        path: '/CreateOrder',
         icon: <IoIcons.IoIosPaper />,
         cName: 'nav-text'
     },
