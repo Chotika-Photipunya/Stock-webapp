@@ -1,39 +1,36 @@
-.text-page-order, .bnt-back, .bnt-search{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #95806E;
-    font-weight: bolder;
-    display: flex;
-    margin-top: 15px;
-
-}
-/* .text-page-order{
+#bnt-back, #text-page, #icon-search{
     justify-content: center;
+    margin-top: 20px;
     text-align: center;
-} */
+    color: #95806E;
+}
 
-.button-back{
-  /*   justify-content: flex-start;
-    margin-right: 30px; */
+.button-back, .bnt-in-card{
+    font-family: Arial, Helvetica, sans-serif;
     color: #FFF;
     background-color: #95806E;
     border-color:#746354;
-    border-width: 0.5px
+    border-width: 0.5px;
+    margin-top: 10px;
+    margin-left: 60px;
 }
 
-.bnt-search{
-   /*  justify-content: flex-end; */
-   margin-left: -30px;
-
-}
-
-.button-back:hover,.button-back:focus,.button-back.focus{
+.bnt-in-card:hover,.bnt-in-card:focus,.bnt-in-card.focus{
+    font-family: Arial, Helvetica, sans-serif;
     color:#fff;/*สีตัวหนังสือในปุ่ม*/
     background:#c5ab95;/*พื้นหลังปุ่ม*/
     border-color:#746354;/*เส้นขอบปุ่ม*/
     border-width: 0.5px;/*ขนาดของเส้นขอบปุ่ม*/
 }
+#line{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 
-hr{
-    border-color: #746354;
-    height: 1px;
+#text-page{
+    margin-top: 30px;
+}
+
+#card-product{
+    margin: 15px;
 }

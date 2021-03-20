@@ -4,47 +4,116 @@ import Col from "react-bootstrap/Col";
 import './CreateOrder.css';
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import Divider from "@material-ui/core/Divider";
+import { BsSearch, BsCaretLeftFill } from "react-icons/bs";
+import Card from "react-bootstrap/Card";
 
 function CreateOrder() {
     return (
         <div className='CreateOrder'>
-            <div className='container '>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col' id='bnt-back'>
+                        <Button className='button-back' type="submit"><BsCaretLeftFill />กลับ</Button>
+                    </div>
+                    <div className='col' id='text-page'><h2>สินค้าในคลัง</h2></div>
+                    <div className='col' id='text-page'> <Form.Control type="text" placeholder="ค้นหา" /></div>
+                    <div className='col' id='icon-search'>
+                        <Button className='button-back' type="submit"><BsSearch /></Button>
+                    </div>
+                </div>
+
+                <Divider id='line' />
+
+                <div className='row' id='body'>
+                    <div className='col'>
+                        <Card id='card-product' style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                    <Card.Text id='text-in-card'>
+                                         Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                    </Card.Text>
+                                <Button className='bnt-in-card' variant="primary">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className='col'>
+                        <Card id='card-product' style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                    <Card.Text id='text-in-card'>
+                                         Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                    </Card.Text>
+                                <Button className='bnt-in-card' variant="primary">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className='col'>
+                        <Card id='card-product' style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src="holder.js/100px180" />
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                        <Card.Text id='text-in-card'> 
+                                            Some quick example text to build on the card title and make up the bulk of
+                                            the card's content.
+                                    </Card.Text>
+                                <Button className='bnt-in-card' variant="primary">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+
+                </div>
 
 
-                <Row className='row-sm'>
-                    <Col className='bnt-back' column-sm>
-                        <Form.Group as={Row} className='bnt-back'>
-                            <div sm={{ span: 10, offset: 2 }}>
-                                <Button className='button-back' type="submit">กลับ</Button>
-                            </div>
-                        </Form.Group>
-                    </Col>
+                <div className='row' id='body'>
+                    <div className='col'>
+                    <Card id='card-product' style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                    <Card.Text id='text-in-card'>
+                                         Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                    </Card.Text>
+                                <Button className='bnt-in-card' variant="primary">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className='col'>
+                    <Card id='card-product' style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                    <Card.Text id='text-in-card'>
+                                         Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                    </Card.Text>
+                                <Button className='bnt-in-card' variant="primary">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className='col'>
+                    <Card id='card-product' style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                    <Card.Text id='text-in-card'>
+                                         Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                    </Card.Text>
+                                <Button className='bnt-in-card' variant="primary">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                </div>
 
-                    <Col className='text-page-order' column-sm><span><h2>สินค้าในคลัง</h2></span></Col>
 
+              
 
-                    <Col className='bnt-search' column-sm>
-                    <div class="input-group">
-  <div class="form-outline">
-    <input type="search" id="form1" class="form-control" />
-    <label class="form-label" for="form1">Search</label>
-  </div>
-  <button type="button" class="btn btn-primary">
-    <i class="fas fa-search"></i>
-  </button>
-</div>
-
-                    </Col>
-                </Row>
-
-
-                <Row className='row-sm'>
-                    <span><h1>sssss</h1></span>
-                </Row>
-
-                <Row className='row-sm'>
-                    <h1>dddd</h1>
-                </Row>
             </div>
         </div>
     )

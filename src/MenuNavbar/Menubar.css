@@ -6,6 +6,7 @@
     justify-content: start;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .menu-bars, .icon-noti{
@@ -30,6 +31,8 @@
 .nav-menu.active {
     left: 0;
     transition: 350ms;
+    z-index: 10;
+    position: absolute;
 }
 
 .nav-text{
