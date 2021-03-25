@@ -42,7 +42,7 @@ export default function Topbar() {
                         <Nav.Link eventKey={2} href="#memes">
                             <div className="TextLogin">
                                 Log in
-               </div>
+                            </div>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

@@ -15,7 +15,7 @@
     margin-left: 60px;
 }
 
-.bnt-in-card:hover,.bnt-in-card:focus,.bnt-in-card.focus{
+.bnt-in-card:hover,.bnt-in-card:focus,.bnt-in-card.focus, .button-back:hover,.button-back:focus,.button-back.focus{
     font-family: Arial, Helvetica, sans-serif;
     color:#fff;/*สีตัวหนังสือในปุ่ม*/
     background:#c5ab95;/*พื้นหลังปุ่ม*/

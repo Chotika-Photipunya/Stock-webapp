@@ -10,6 +10,7 @@ import Main from './Pages/Main';
 import Products from './Pages/Products';
 import CreateOrder from './Pages/CreateOrder';
 import NewitemsForm from './Pages/NewitemsForm';
+import CreateOrderList from './Pages/CreateOrderList';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/CreateOrder' component={CreateOrder} />
         <Route path='/NewitemsForm' component={NewitemsForm} />
         <Route path='/Login' component={Login} />
+        <Route path='/CreateOrderList' component={CreateOrderList} />
 
       </Switch>
     </Router>
