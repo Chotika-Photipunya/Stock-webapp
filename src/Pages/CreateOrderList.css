@@ -2,5 +2,88 @@
     justify-content: flex-end;
     margin-left: 890px;
     margin-top: -20px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+    
+}
+
+#table-header{
+    background-color: #EEEAE7;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(189, 189, 189, 0.918);
+    margin: 15px;
+  
+}
+
+#text-table-header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #95806E;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+#text-table{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #95806E;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bnt-edit{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFF;
+        background-color: #95806E;
+        border-color:#746354;
+        border-width: 0.5px;
+        border-radius: 25px;
+        margin-bottom: 8px;
+       
+}
+
+ 
+.bnt-edit:hover,.bnt-edit:focus,.bnt-edit.focus{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;/*สีตัวหนังสือในปุ่ม*/
+    background:#c5ab95;/*พื้นหลังปุ่ม*/
+    border-color:#746354;/*เส้นขอบปุ่ม*/
+    border-width: 0.5px;/*ขนาดของเส้นขอบปุ่ม*/
+    border-radius: 25px;
+   
+}
+
+.bnt-comfirm-in-orderlist{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #95806E;
+    border-color:#746354;
+    border-width: 0.5px;
+    border-radius: 25px;
+    margin-top: 40px;
+  
+}
+
+.bnt-comfirm-in-orderlist:hover,.bnt-comfirm-in-orderlist:focus,.bnt-comfirm-in-orderlist.focus{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;/*สีตัวหนังสือในปุ่ม*/
+    background:#c5ab95;/*พื้นหลังปุ่ม*/
+    border-color:#746354;/*เส้นขอบปุ่ม*/
+    border-width: 0.5px;/*ขนาดของเส้นขอบปุ่ม*/
+    border-radius: 25px;
+    font-weight: bolder;
+   
+}
+
+#bnt-comfirm{
+    align-items: center;
+
 }
