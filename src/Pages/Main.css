@@ -1,0 +1,80 @@
+.input-search{
+   margin-left: 266px;
+}
+
+.bnt-search{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #95806E;
+    border-color:#746354;
+    border-width: 0.5px;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.bnt-search:hover,.bnt-search:focus,.bnt-search.focus{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;/*สีตัวหนังสือในปุ่ม*/
+    background:#c5ab95;/*พื้นหลังปุ่ม*/
+    border-color:#746354;/*เส้นขอบปุ่ม*/
+    border-width: 0.5px;/*ขนาดของเส้นขอบปุ่ม*/
+    border-radius: 0px 10px 10px 0px;
+  
+}
+
+.main-table{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #EEEAE7;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.main-table :hover{
+    background-color: #c4bcb8;
+    color: #7e6c5e;
+
+}
+
+
+.bnt-detail{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #95806E;
+    border-color:#746354;
+    border-width: 0.5px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.bnt-detail:hover,.bnt-detail:focus,.bnt-detail.focus{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;/*สีตัวหนังสือในปุ่ม*/
+    background:#c5ab95;/*พื้นหลังปุ่ม*/
+    border-color:#746354;/*เส้นขอบปุ่ม*/
+    border-width: 0.5px;/*ขนาดของเส้นขอบปุ่ม*/
+}
+.text-in-table{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #857262;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.text-header-in-table{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7e6c5e;
+    background-color: #dbcfc4;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 18px;
+}

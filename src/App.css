@@ -8,7 +8,6 @@
 }
 
 .Home,
-.Main,
 .Products{
     display: flex;
     height: 90vh;
