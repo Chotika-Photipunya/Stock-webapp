@@ -26,10 +26,7 @@ function Menubar() {
                         <FaIcons.FaBars onClick={showSidebar} />
                     </Link>
 
-                    
-
                     <Navbar.Brand href="#home">
-                  
                         <div className='name-logo'>
                         <Image style={stylelogo} src="Logo.png" />
                             Smart Manage
@@ -42,7 +39,7 @@ function Menubar() {
                         <Row>
                             <Nav.Link href="#notification">
                                 <Col>
-                                <div className='icon-noti'>
+  l                              <div className='icon-noti'>
                                     <IoIcons.IoMdNotifications value={{ color: '#fff' }} />
                                 </div>
                                 </Col>
