@@ -40,3 +40,12 @@
     border-radius: 25px;
 }
 
+/* @media (min-width: 420px) { 
+    .col #text-page {
+      font-size: 8px;
+      justify-content: center;
+      margin-top: 20px;
+      text-align: center;
+      color: #95806E;
+    }
+  } */

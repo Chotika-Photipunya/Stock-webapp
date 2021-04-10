@@ -24,7 +24,7 @@ export const SidebarData = [
     },
     {
         title: 'เบิกสินค้า',
-        path: '/Team',
+        path: '/Requisition',
         icon: <IoIcons.IoMdPeople />,
         cName: 'nav-text'
     },

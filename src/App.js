@@ -12,6 +12,8 @@ import CreateOrder from './Pages/CreateOrder';
 import NewitemsForm from './Pages/NewitemsForm';
 import CreateOrderList from './Pages/CreateOrderList';
 import CreateOrderListEdit from './Pages/CreateOrderListEdit';
+import Requisition from './Pages/Requisition';
+
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route path='/Login' component={Login} />
         <Route path='/CreateOrderList' component={CreateOrderList} />
         <Route path='/CreateOrderListEdit' component={CreateOrderListEdit} />
+        <Route path='/Requisition' component={Requisition} />
+      
 
       </Switch>
     </Router>

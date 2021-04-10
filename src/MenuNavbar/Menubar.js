@@ -31,10 +31,26 @@ function Menubar() {
                         <Image style={stylelogo} src="Logo.png" />
                             Smart Manage
                         </div>
-                    </Navbar.Brand>
+                    </Navbar.Brand> 
+
+                    <Nav.Link href="#notification">
+                                <Col>
+  l                              <div className='icon-noti'>
+                                    <IoIcons.IoMdNotifications value={{ color: '#fff' }} />
+                                </div>
+                                </Col>
+                            </Nav.Link>
+
+                            <Nav.Link eventKey={2} href="#Login">
+                                <Col>
+                                <div className='text-login'>
+                                    Log in
+                                </div>
+                                </Col>
+                    </Nav.Link>
              
 
-                    <Nav className='bnt-rigth'>
+                    {/* <Nav className='bnt-rigth'>
 
                         <Row>
                             <Nav.Link href="#notification">
@@ -53,7 +69,7 @@ function Menubar() {
                                 </Col>
                             </Nav.Link>
                         </Row>
-                    </Nav>
+                    </Nav> */}
 
                 </div>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>

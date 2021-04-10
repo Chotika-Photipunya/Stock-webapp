@@ -1,33 +1,32 @@
 import React from 'react'
-import Row from 'react-bootstrap/esm/Row';
-import Col from "react-bootstrap/Col";
-import './CreateOrder.css';
-import Form from "react-bootstrap/Form";
+import './Requisition.css';
 import Button from "react-bootstrap/Button";
 import Divider from "@material-ui/core/Divider";
 import { BsSearch, BsCaretLeftFill } from "react-icons/bs";
 import Card from "react-bootstrap/Card";
 
-function CreateOrder() {
+
+function Requisition() {
     return (
-        <div className='CreateOrder'>
-            <div className='container'>
+        <div className='Requisition'>
+            <div className='topnav'>
                 <div className='row'>
                     <div className='col' id='bnt-back'>
-                        <Button className='button-back' type="submit"><BsCaretLeftFill />กลับ</Button>
+                        <Button className='button-back-requisition' type="submit"><BsCaretLeftFill />กลับ</Button>
                     </div>
-                    <div className='col' id='text-page'><h2>สินค้าในคลัง</h2></div>
-                    <div className='col' > <Form.Control type="text" placeholder="ค้นหา" /></div>
-                    <div className='col' id='icon-search'>
-                        <Button className='button-back' type="submit"><BsSearch /></Button>
+                    <div className='text-Requisition'><h2 id='text-'>เบิกสินค้า</h2></div>
+                    <div className='search-inline'>
+                        <input className='input-search' type="text" placeholder="ค้นหา" />
+                        <button className='bnt-search' type="submit"><i class="fa fa-search" /></button>
                     </div>
                 </div>
+            </div>
+            <Divider id='line' />
+             <div className='container'>
 
-                <Divider id='line' />
-
-                <div className='row' id='body'>
+            <div className='row' id='body-requisition'>
                     <div className='col'>
-                        <Card id='card-product' style={{ width: '18rem' }}>
+                        <Card id='card-product-requisition' style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -40,7 +39,7 @@ function CreateOrder() {
                         </Card>
                     </div>
                     <div className='col'>
-                        <Card id='card-product' style={{ width: '18rem' }}>
+                        <Card id='card-product-requisition' style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -53,7 +52,7 @@ function CreateOrder() {
                         </Card>
                     </div>
                     <div className='col'>
-                        <Card id='card-product' style={{ width: '18rem' }}>
+                        <Card id='card-product-requisition' style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
@@ -71,7 +70,7 @@ function CreateOrder() {
 
                 <div className='row' id='body'>
                     <div className='col'>
-                    <Card id='card-product' style={{ width: '18rem' }}>
+                    <Card id='card-product-requisition' style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -84,7 +83,7 @@ function CreateOrder() {
                         </Card>
                     </div>
                     <div className='col'>
-                    <Card id='card-product' style={{ width: '18rem' }}>
+                    <Card id='card-product-requisition' style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -97,7 +96,7 @@ function CreateOrder() {
                         </Card>
                     </div>
                     <div className='col'>
-                    <Card id='card-product' style={{ width: '18rem' }}>
+                    <Card id='card-product-requisition' style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -110,13 +109,10 @@ function CreateOrder() {
                         </Card>
                     </div>
                 </div>
-
-
-              
-
-            </div>
+                </div>
         </div>
+
     )
 }
 
-export default CreateOrder;
+export default Requisition;

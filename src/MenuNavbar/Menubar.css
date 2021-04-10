@@ -6,7 +6,8 @@
     justify-content: start;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-
+    width: max-content;
+    width: 100%;
 }
 
 .menu-bars, .icon-noti{
@@ -103,11 +104,6 @@ span{
     border: 0;
 }
 
-.text-login{
-    margin-top: 10px;
-    margin-left: -30px;
-}
-
 .icon-hamberger{
     margin-left: 30px;
 }
@@ -115,6 +111,46 @@ span{
 .name-logo{
     margin-left: 15px;
 }
+
+.icon-noti{
+    display: flex;
+  margin-bottom: 30px;
+  margin-inline-start: 1010px;
+}
+
+.text-login{
+    display: flex;
+    margin-left: -40px;
+}
+
+@media screen and (max-width: 1200px) {    
+    .icon-noti{
+        margin-bottom: 30px;
+        margin-inline-start: 780px;
+      }
+  }
+
+  @media screen and (max-width: 800px) {    
+    .icon-noti{
+        margin-bottom: 30px;
+        margin-inline-start: 290px;
+      }
+  }
+
+  @media screen and (max-width: 600px) {    
+    .icon-noti{
+        margin-bottom: 30px;
+        margin-inline-start: 780px;
+      }
+  }
+
+  @media screen and (max-width: 400px) {    
+    .icon-noti{
+        margin-bottom: 30px;
+        margin-inline-start: 780px;
+      }
+  }
+
 
 /* .text-login{
     margin-left: 500px;

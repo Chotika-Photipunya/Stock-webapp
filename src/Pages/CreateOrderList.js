@@ -66,18 +66,18 @@ function CreateOrderList() {
                         <h5>105,000</h5>
                     </div>
                     <div className='col' id='text-table'>
-                    <Button className='bnt-edit' type="submit">แก้ไขข้อมูล</Button>
+                        <Button className='bnt-edit' type="submit">แก้ไขข้อมูล</Button>
                     </div>
                 </div>
 
                 <div className='row'>
-                <div class="col-md-12 text-center">
-                <Button className='bnt-comfirm-in-orderlist' type="submit">ยืนยันการสร้าง</Button>
-                </div>
+                    <div class="col-md-12 text-center">
+                        <Button className='bnt-comfirm-in-orderlist' type="submit">ยืนยันการสร้าง</Button>
+                    </div>
                 </div>
 
-                
-     
+
+
 
 
             </div>

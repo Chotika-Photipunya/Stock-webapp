@@ -1,0 +1,114 @@
+#line{
+    margin-top: 15   px;
+}
+* {box-sizing: border-box;}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+}
+
+.topnav {
+  display: inline;
+}
+
+.search-inline{
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  margin-right: -67px;
+ 
+}
+
+.topnav .search-inline button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #95806E;
+  border-color:#746354;
+  font-size: 17px;
+  border: 0.5px;
+  cursor: pointer;
+}
+
+.text-Requisition{
+    margin-top: 25px;
+    text-align: center;
+    margin-right: 130px;
+    color: #95806E;
+}
+.bnt-search{
+    height: 39px;
+    margin-right: 0px;
+    position:relative
+}
+
+.input-search{
+    border-radius: 10px;
+    border-width: 0.5px;
+}
+
+.button-back-requisition{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #95806E;
+    border-color:#746354;
+    border-width: 0.5px;
+    margin-top: 8px;
+    margin-left: 50px;
+    border-radius: 10px;
+    float: left;
+}
+
+.button-back-requisition:hover,.button-back-requisition:focus,.button-back-requisition.focus{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;/*สีตัวหนังสือในปุ่ม*/
+    background:#c5ab95;/*พื้นหลังปุ่ม*/
+    border-color:#746354;/*เส้นขอบปุ่ม*/
+    border-width: 0.5px;/*ขนาดของเส้นขอบปุ่ม*/
+    border-radius: 10px;
+}
+#card-product-requisition{
+    margin: 15px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .input-search{
+    width: 310px;
+    margin-left: 40px;
+    
+  }
+  .bnt-search{
+   height: 39px;
+   margin-right: 0px;
+  
+  }
+  .search-inline{
+      display: inline;
+      flex-direction: row;
+  }
+
+  .button-back-requisition{
+      margin-left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .text-Requisitio{
+       clear: both;
+       margin-right: 0px;
+       margin-left: 100px;
+    }
+  }
